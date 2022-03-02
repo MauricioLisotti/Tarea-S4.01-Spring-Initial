@@ -1,0 +1,24 @@
+{
+	"info": {
+		"_postman_id": "36f7bef8-7cbc-41d7-a6c6-4219c402d85d",
+		"name": "Collection Fase3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Request Fase3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{puerto}}",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{puerto}}"
+				}
+			},
+			"response": []
+		}
+	]
+}
